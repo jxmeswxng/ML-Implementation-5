@@ -1,0 +1,114 @@
+#######################################################################################
+# README FILE
+# Introduction to Machine Learning
+# Assignment 5
+#
+# After completing the assignment, fill in this README file.  It asks you to duplicate
+# your answer to several questions.  Be certain that your answers in this README file
+# (which will be used for auto-grading) match the answers in your PDF writeup.
+#
+# This README file is formatted in YAML to allow it to be machine readable.  Please
+# be very careful with how you edit it, being careful to following the formatting.
+# Make certain not to change any text in all UPPERCASE.  After editing, you can make 
+# certain that your README file follows proper YAML syntax by running it through an
+# online YAML checker, such as http://yaml-online-parser.appspot.com/
+# 
+# The most frequent error is multi-line strings, such as "SOURCESCONSULTED" and 
+# "FEEDBACK_ERRORS".  Make certain that the previous line ends with a | followed by a 
+# newline.  Then, make certain that the subsequent lines are indented one level in 
+# (4 spaces).  This sounds complex, but just follow the existing format of this file.
+# If you run into any problems that you can't fix easily in listing your sources or 
+# providing feedback on the assignment, just include your multi-line string answers to
+# these parts as comments.  Everything else (all simple one-word or numeric answers) must
+# be properly formatted YAML.
+# 
+# Assignment Version 20151110a
+#######################################################################################
+
+# Personal information  (BE SURE TO CHANGE THIS!)
+FIRSTNAME: James
+LASTNAME:  Wang
+PENNKEY:   jamwang
+PENNID:    46576241
+
+# Which course are you enrolled in?  (enter 419 or 519)
+COURSE:  419 
+
+
+# List all sources of help that you consulted while completing this assignment 
+# (other students, colleagues, textbooks, websites, etc.).  This includes anyone you 
+# briefly discussed the homework with.  If you received help from the following sources, 
+# you do not need to cite it: course instructor, course teaching assistants, course 
+# lecture notes, course textbooks or other readings.
+# 
+# If you didn't receive help from anyone, write "none".
+
+SOURCESCONSULTED: |
+    While completing the assignment, I consulted the following sources: 
+    docs.scipy.org
+
+
+ 
+####################################################################################### 
+# Answers to Problem 1:  K-means
+#
+# 
+#######################################################################################
+
+# Problem 1a: What are the cluster centroids for each of the next two iterations?
+KMEANS_CENTROIDS_ITER2: 2,8.33
+KMEANS_CENTROIDS_ITER3: 2.5,9.2
+
+# Problem 1b: Have the cluster centroids converged? (answer only YES or NO)
+KMEANS_CENTROIDS_CONVERGED: YES
+
+
+
+####################################################################################### 
+# Answers to Problem 2:  K-means and Variance
+#
+#######################################################################################
+
+# Problem 2a: What happens to the variance of a partition as K increases? (answer 
+#             only INCREASES, DECREASES, or STAYSSAME)
+KMEANS_VARIANCE_EFFECT: DECREASES
+
+# Problem 2b: For a dataset with $n$ instances, what value of k can you always get a variance of 0?
+KMEANS_VARIANCE_ZEROVARIANCE: n
+
+
+
+####################################################################################### 
+# Answers to Problem 4:  Reinforcement Learning II (CIS 519 ONLY)
+# 
+# (Students in 419 can leave this section unchanged)
+#
+# Please list your final answers below for auto-grading.
+#######################################################################################
+
+# Problem 4a: Are the signs of these rewards important, or only the intervals between 
+#             them?  (answer only SIGNS or INTERVALS)
+RL_REWARDS_IMPORTANCE: UNKNOWN
+
+
+ 
+ 
+ 
+#######################################################################################
+# Feedback on the Assignment (OPTIONAL)
+# 
+# The following information will help us improve future versions of this assignment.
+# It is completely optional, but highly appreciated.  Please be honest.
+#######################################################################################
+
+# Approximately how many hours did it take you to complete this assignment?
+FEEDBACK_NUM_HOURS: 0
+
+# Please list any typos / errors you noticed in the assignment description or skeleton code
+FEEDBACK_ERRORS: |
+    None
+ 
+# Please describe any problems you encountered while completing this assignment
+FEEDBACK_PROBLEMS: |
+    None
+    
